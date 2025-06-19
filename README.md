@@ -282,7 +282,7 @@ plt.title(f'Overlay (Score: {result["score"]:.3f})')
 plt.show()
 ```
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 ### Supported Metrics
 
@@ -320,7 +320,7 @@ print(f"Dice: {metrics['dice']:.3f}")
 print(f"Hausdorff Distance: {metrics['hausdorff']:.2f} pixels")
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 MedSAM2/
@@ -341,7 +341,7 @@ MedSAM2/
 └── README.md                      # This file
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Multi-GPU Training
 
@@ -610,13 +610,6 @@ python train_medsam2_finetune.py \
     --early_stopping_patience 10
 ```
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -624,12 +617,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Kvasir-SEG dataset contributors
 - The medical imaging community
 
-## Support
 
-- **Issues**: [GitHub Issues](https://github.com/iramk11/MedSAM2/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/iramk11/MedSAM2/discussions)
-- **Email**: [your-email@domain.com]
 
----
-
-**Happy Segmenting! 🎯**
